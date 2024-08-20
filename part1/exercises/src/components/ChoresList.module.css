@@ -3,9 +3,15 @@
    font-family: fantasy;
    font-size: 1.3vw;
    font-style: italic;
+   text-align: left;
 }
 
 .choresHeading {
    color:springgreen;
    text-decoration: underline;
+   text-align: left;
+}
+
+.choresBorder {
+   border-style: dashed;
 }
