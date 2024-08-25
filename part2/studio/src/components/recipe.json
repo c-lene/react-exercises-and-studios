@@ -1,17 +1,17 @@
 [
    {
-     "name": "Stovetop Mac and Cheese",
-     "author": "Stephanie Melchione",
-     "description": "This Creamy Stovetop Mac and Cheese is the BEST 30-minute meal for a busy week. Your family will love it every time!",
-     "website": "https://thecozycook.com/stovetop-mac-and-cheese/",
-     "recipeImage": "https://thecozycook.com/wp-content/uploads/2021/10/Stovetop-Mac-and-Cheese-2.jpg",
-     "authorImage": "https://thecozycook.com/wp-content/uploads/2021/11/The-Cozy-Cook.jpg",
+     "name": "Kimchi Fried Rice",
+     "author": "Aaron and Claire",
+     "description": "This recipe for making Kimchi Fried Rice easily at home",
+     "website": "https://aaronandclaire.com/3-ways-to-enjoy-kimchi-fried-rice/",
+     "recipeImage": "https://aaronandclaire.com/wp-content/uploads/2021/07/%EC%8D%B8%EB%84%A4%EC%9D%BC-2-768x432.jpg",
+     "authorImage": "https://aaronandclaire.com/wp-content/uploads/2023/07/profile-768x768.jpg",
      "ingredients": [
-       "uncooked macaroni",
-       "butter",
-       "flour",
-       "heavy cream",
-       "milk"
+       "Cooked Rice", 
+       "well-fermented Kimchi", 
+       "Green Onions", 
+       "Vegetable Oil", 
+       "Toasted Sesame Oil"
      ]
    }
  ]
