@@ -1,4 +1,5 @@
 import "./styling.css";
+import "./recipe.json";
 
 function SaveButton() {
   function handleClick() {
