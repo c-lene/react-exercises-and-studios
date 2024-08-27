@@ -1,13 +1,13 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://aaronandclaire.com/3-ways-to-enjoy-kimchi-fried-rice/";
+   let authorPhoto = "https://aaronandclaire.com/wp-content/uploads/2023/07/profile-768x768.jpg";
+   let authorName = "Aaron and Claire";
 
    return (
       <div>
-         <img src={authorPhoto} alt = "" style={{objectFit: "contain", borderRadius: "50%"}} />
+         <img src={authorPhoto} alt = {authorName} style={{objectFit: "contain", borderRadius: "50%"}} width="400px"/>
          <div>
             <h3>{authorName}</h3>
             <a href={authorLink}></a> 
@@ -17,7 +17,13 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = [
+      "Cooked Rice", 
+      "well-fermented Kimchi", 
+      "Green Onions", 
+      "Vegetable Oil", 
+      "Toasted Sesame Oil"
+    ];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -33,11 +39,14 @@ const RecipeIngredients = () => {
 }
 
 const RecipeDescription = () => {
+   let recipeName = "Kimchi Fried Rice";
+   let recipeDescription = "This recipe for making Kimchi Fried Rice easily at home";
+
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>{recipeName}</h1>
+            <p>{recipeDescription}</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -48,8 +57,11 @@ const RecipeDescription = () => {
 }
 
 const RecipePhoto = () => {
+   let recipeImage = "https://aaronandclaire.com/wp-content/uploads/2021/07/%EC%8D%B8%EB%84%A4%EC%9D%BC-2-768x432.jpg"
+   let recipeName = "Kimchi Fried Rice"
+
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src={recipeImage} alt={recipeName} className="imageUpdates" width="500px" />
    );
 }
 
